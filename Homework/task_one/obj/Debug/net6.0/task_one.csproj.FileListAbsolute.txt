@@ -1,0 +1,15 @@
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/bin/Debug/net6.0/task_one
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/bin/Debug/net6.0/task_one.deps.json
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/bin/Debug/net6.0/task_one.runtimeconfig.json
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/bin/Debug/net6.0/task_one.dll
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/bin/Debug/net6.0/task_one.pdb
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/task_one.csproj.AssemblyReference.cache
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/task_one.GeneratedMSBuildEditorConfig.editorconfig
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/task_one.AssemblyInfoInputs.cache
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/task_one.AssemblyInfo.cs
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/task_one.csproj.CoreCompileInputs.cache
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/task_one.dll
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/refint/task_one.dll
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/task_one.pdb
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/task_one.genruntimeconfig.cache
+/Users/slavik/Desktop/GeekBrains/C#/Lesson_1_seminar/Homework/task_one/obj/Debug/net6.0/ref/task_one.dll
