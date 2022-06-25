@@ -5,35 +5,107 @@
 // 22 3 9 -> 22
 
 Console.Write("Введите первое число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int numberOne = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int numberTwo = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье число: ");
 int numberThree = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 
-if (number > numberTwo)
-{
-    max = number;
-}
-    if (number > numberThree)
+if (numberOne > numberTwo)
+    if (numberOne > numberThree)
     {
-        max = number;
+        numberOne = max;
+        Console.WriteLine(max);
     }
-if (numberTwo > number)
-{
-    max = numberTwo;
-}
+if (numberTwo > numberOne)
     if (numberTwo > numberThree)
     {
-        max = numberTwo;
+        numberTwo = max;
+        Console.WriteLine(max);
     }
-if (numberThree > number)
-{
-    max = numberThree;
-}
+if (numberThree > numberOne)
     if (numberThree > numberTwo)
     {
-        max = numberThree;
+        numberThree = max;
+        Console.WriteLine(max);
     }
-    Console.Write("Наибольшее число" + max);
+if (numberTwo > numberThree)
+{
+    numberTwo = max;
+    Console.WriteLine(max);
+}
+else
+{
+    numberThree = max;
+    Console.WriteLine(max);
+}
+
+// Console.Write(max);
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// if (numberOne > numberTwo)
+// {
+//     numberOne = max;
+// }
+// else if (numberOne > numberThree)
+// {
+//     numberOne = max;
+// }
+// else if (numberTwo > numberOne)
+// {
+//     numberTwo = max;
+// }
+// else if (numberTwo > numberThree)
+// {
+//     numberTwo = max;
+// }
+// else if (numberThree > numberOne)
+// {
+//     numberThree = max;
+// }
+// else if (numberThree > numberTwo)
+// {
+//     numberThree = max;
+// }
+// else if (numberTwo > numberThree)
+// {
+//     numberTwo = max;
+// }
+// else
+// {
+//     numberThree = max;
+// }
+
+// Console.Write(max);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// if (number > numberTwo)
+// {
+//     max = number;
+// }
+//     if (number > numberThree)
+//     {
+//         max = number;
+//     }
+// if (numberTwo > number)
+// {
+//     max = numberTwo;
+// }
+//     if (numberTwo > numberThree)
+//     {
+//         max = numberTwo;
+//     }
+// if (numberThree > number)
+// {
+//     max = numberThree;
+// }
+//     if (numberThree > numberTwo)
+//     {
+//         max = numberThree;
+//     }
+//     Console.Write("Наибольшее число" + max);
+
+
