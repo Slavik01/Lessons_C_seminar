@@ -14,18 +14,12 @@ int min = 0;
 if (number > numberTwo)
 {
     max = number;
+    min = numberTwo;
 }
-else 
-{
-    max = numberTwo;  
-}
-if (number < numberTwo)
+else if (number < numberTwo)
 {
     min = number;
-}
-else
-{
-    min = numberTwo;
+    max = numberTwo;
 }
 Console.WriteLine("Максимальное число: " + max);
 Console.Write("Минимальное число: " + min);
