@@ -3,6 +3,7 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
+Console.Clear();
 Console.Write("Введите первое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
@@ -18,6 +19,13 @@ else
 {
     max = numberTwo;  
 }
-Console.Write("Максимальное число: " + max);
+if (number < numberTwo)
+{
+    min = number;
+}
+else
+{
+    min = numberTwo;
+}
+Console.WriteLine("Максимальное число: " + max);
 Console.Write("Минимальное число: " + min);
-
