@@ -11,36 +11,58 @@ int numberTwo = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье число: ");
 int numberThree = Convert.ToInt32(Console.ReadLine());
 int max = 0;
+//int count = 10;
+//while (max < count)
+    if (numberOne > numberTwo && numberOne > numberThree)
+    {
+        // Console.WriteLine("Наибольшее число первое " + numberOne);
+        max = numberOne;
+        Console.WriteLine("Наибольшее число первое " + max);
 
-if (numberOne > numberTwo)
-    if (numberOne > numberThree)
-    {
-        numberOne = max;
-        Console.WriteLine(max);
     }
-if (numberTwo > numberOne)
-    if (numberTwo > numberThree)
+    else if (numberTwo > numberThree)
     {
-        numberTwo = max;
-        Console.WriteLine(max);
+        // Console.WriteLine("Наибольшее число второе " + numberTwo);
+        max = numberTwo;
+        Console.WriteLine("Наибольшее число второе " + max);
     }
-if (numberThree > numberOne)
-    if (numberThree > numberTwo)
+    else
     {
-        numberThree = max;
-        Console.WriteLine(max);
+        // Console.WriteLine("Наибольшее число третье " + numberThree);
+        max = numberThree;
+        Console.WriteLine("Наибольшее число третье " + max);
+        
     }
-if (numberTwo > numberThree)
-{
-    numberTwo = max;
-    Console.WriteLine(max);
-}
-else
-{
-    numberThree = max;
-    Console.WriteLine(max);
-}
 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+// if (numberOne > numberTwo)
+//     if (numberOne > numberThree)
+//     {
+//         numberOne = max;
+//     }
+// Console.WriteLine(max);
+// if (numberTwo > numberOne)
+//     if (numberTwo > numberThree)
+//     {
+//         numberTwo = max;
+//     }
+// Console.WriteLine(max);
+// if (numberThree > numberOne)
+//     if (numberThree > numberTwo)
+//     {
+//         numberThree = max;
+//     }
+// Console.WriteLine(max);
+// if (numberTwo > numberThree)
+// {
+//     numberTwo = max;
+// }
+// else
+// {
+//     numberThree = max;
+// }
 // Console.Write(max);
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
